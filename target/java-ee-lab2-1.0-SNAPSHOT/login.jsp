@@ -28,11 +28,11 @@
         <form action="/action-login" method="post">
             <div class="mb-3">
                 <label for="exampleInputName" class="form-label">Name</label>
-                <input type="text" name="name" class="form-control" id="exampleInputName">
+                <input type="text" name="name" class="form-control" id="exampleInputName" required>
             </div>
             <div class="mb-3">
                 <label for="exampleInputPassword1" class="form-label">Password</label>
-                <input type="password" name="password" class="form-control" id="exampleInputPassword1">
+                <input type="password" name="password" class="form-control" id="exampleInputPassword1" required>
             </div>
             <button type="submit" name="submit" class="btn btn-primary">Submit</button>
         </form>
